@@ -5,6 +5,8 @@ core JavaScript concepts through hands-on development.
 
 ## 📂 Projects List
 -Tips Calculator
+<img width="620" height="758" alt="image" src="https://github.com/user-attachments/assets/4fbb90e1-56a4-48ac-8983-d7dfb8b1ade2" />
+
 
 
 ## 🎯 Purpose
