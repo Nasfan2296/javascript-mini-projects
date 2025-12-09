@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marko+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reem+Kufi:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap" rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+     />
+
+    <script src="app.js" defer></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <!---Top Section-->
+
+        <div class="top">
+           
+            <h1 class="title">
+                <img src="money.png" alt="Money icon">
+                <span>Tip Calculator</span>
+
+            </h1>
+           
+            <div class="input-wrapper">
+                <p class="label">Bill</p>
+
+                <input 
+                    type="number"
+                    class="in-wrap"
+                    placeholder="$"
+                
+                />
+
+
+
+            </div>
+
+            <p class="label">Select Tip %</p>
+
+            <div class="btn-container">
+                <button class="btn">5%</button>
+                <button class="btn">10%</button>
+                <button class="btn">15%</button>
+                <button class="btn">20%</button>
+                <button class="btn">25%</button>
+                <input 
+                    type="number"
+                    class="custom"
+                    placeholder="Custom"
+                />
+
+            </div>
+
+            <p class="label">Number of People</p>
+            <input 
+                type="text"
+                class="in-wrap "
+                placeholder="1"
+            />
+
+            
+
+        </div>
+
+        <!--Footer Section-->
+
+        <div class="Amount">
+
+            <div class="desc">
+                <p>
+                    Tip Amount <br/>
+                    <span>person</span>
+                </p>
+
+            </div>
+            <div class="tipValue">$0.00</div>
+
+            <div class="desc">
+                <p>
+                    Total <br/>
+                    <span>person</span>
+
+                </p>
+
+            </div>
+            <div class="tipValue">$0.00</div>
+
+        </div>
+
+        <!--Reset Button-->
+        <div class="reset">
+            <button class="resetBtn">
+                Reset
+            </button>
+
+        </div>
+
+
+
+    </div>
+
+   
+    
+</body>
+</html>

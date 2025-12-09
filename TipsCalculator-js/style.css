@@ -1,0 +1,169 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Page */
+body {
+  min-height: 100vh;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 24px;
+}
+
+.title img{
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+}
+
+/* Card */
+.container {
+  width: 400px;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+/* Sections */
+.upper-section,
+.footer-section {
+  padding: 20px;
+}
+
+/* Labels */
+.label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 6px;
+  margin-left: 8px;
+
+}
+
+/* Inputs */
+
+.in-wrap,
+.custom {
+  width: 90%;
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  outline: none;
+  margin-left: 12px;
+}
+
+
+
+.in-wrap:focus,
+.custom:focus {
+  border-color: #5E35B1;
+}
+
+/* Spacing helper */
+.input-wrapper {
+  margin-bottom: 16px;
+ 
+}
+
+/* Buttons */
+.btn-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 16px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.btn {
+  padding: 14px;
+  font-size: 14px;
+  font-weight: 500;
+  background:#5E35B1;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Footer */
+.footer-section {
+  background: #f1f5f9;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* Results */
+.Amount {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 16px;
+  margin-bottom: 16px;
+}
+
+.desc p {
+  font-size: 13px;
+  color: #475569;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.desc span {
+  font-size: 12px;
+  color: #94a3b8;
+ 
+}
+
+.tipValue {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: right;
+  color: #0f172a;
+  margin-top: 8px;
+  margin-right: 6px;
+}
+
+/* Reset Button */
+.resetBtn {
+  width: 90%;
+  padding: 12px;
+  background: #5E35B1;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 18px;
+  margin-bottom: 6px;
+}
+
+.resetBtn:hover {
+  opacity: 0.9;
+}
+
+/* Mobile */
+@media (max-width: 400px) {
+  .container {
+    width: 90%;
+  }
+}
